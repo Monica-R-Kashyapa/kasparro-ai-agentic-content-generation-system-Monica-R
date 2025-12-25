@@ -60,7 +60,7 @@ The system is designed as a **layered, agentic architecture** with explicit data
 ### 1. High-Level System Architecture
 This diagram shows the complete system structure from input to final outputs, highlighting agent boundaries and separation of concerns.
 
-![System Architecture](<img width="2800" height="1163" alt="agentic-content-generation-system-architecture (3)" src="https://github.com/user-attachments/assets/382a7c0e-f6fd-4134-8b8a-1a5f26ef5452" />)
+![System Architecture](<img width="2800" height="1163" alt="agentic-content-generation-system-architecture (3)" src="https://github.com/user-attachments/assets/2b894ec9-a556-4da2-8290-83cad10c5db0" />)
 
 **Key Design Principles**
 - Orchestrator manages execution and coordination
