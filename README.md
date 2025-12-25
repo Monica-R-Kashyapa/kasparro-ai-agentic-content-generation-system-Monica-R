@@ -168,10 +168,11 @@ This separation ensures **business logic and presentation remain decoupled**.
 
 All final outputs are generated as **machine-readable JSON**:
 
-- `product_page.json`
-- `faq.json`
-- `comparison_page.json`
-- `graph.json` (orchestration metadata)
+- `product_page.json`: Stores structured data related to product details such as price, features, specifications, and availability.
+- `faq.json`: Contains frequently asked questions and their corresponding answers to assist users with common queries.
+- `comparison_page.json` : Holds data used to compare products based on features, pricing, and specifications.
+- `graph.json` (orchestration metadata): the orchestration graph with `nodes` and `edges`.
+
 
 These outputs are suitable for:
 - CMS ingestion
