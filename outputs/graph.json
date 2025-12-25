@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": "parse",
+      "agent": "DataParserAgent"
+    },
+    {
+      "id": "questions",
+      "agent": "QuestionGeneratorAgent"
+    },
+    {
+      "id": "blocks",
+      "type": "content_blocks"
+    },
+    {
+      "id": "page_faq",
+      "agent": "PageGeneratorAgent",
+      "template": "faq"
+    },
+    {
+      "id": "page_product",
+      "agent": "PageGeneratorAgent",
+      "template": "product"
+    },
+    {
+      "id": "page_comparison",
+      "agent": "PageGeneratorAgent",
+      "template": "comparison"
+    }
+  ],
+  "edges": [
+    {
+      "from": "parse",
+      "to": "questions"
+    },
+    {
+      "from": "parse",
+      "to": "blocks"
+    },
+    {
+      "from": "questions",
+      "to": "page_faq"
+    },
+    {
+      "from": "blocks",
+      "to": "page_faq"
+    },
+    {
+      "from": "blocks",
+      "to": "page_product"
+    },
+    {
+      "from": "blocks",
+      "to": "page_comparison"
+    }
+  ]
+}
