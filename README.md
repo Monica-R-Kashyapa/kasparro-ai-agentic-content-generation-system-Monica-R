@@ -60,7 +60,7 @@ The system is designed as a **layered, agentic architecture** with explicit data
 ### 1. High-Level System Architecture
 This diagram shows the complete system structure from input to final outputs, highlighting agent boundaries and separation of concerns.
 
-![System Architecture](System Design/System Architecture.png)
+![System Architecture](System%20Design/System%20Architecture.png)
 
 **Key Design Principles**
 - Orchestrator manages execution and coordination
@@ -75,7 +75,7 @@ This diagram shows the complete system structure from input to final outputs, hi
 This diagram represents the **automation graph** executed by the orchestrator.  
 Each node represents an agent or processing step, and edges represent data dependencies.
 
-![Orchestration Graph](<img width="1354" height="312" alt="Screenshot 2025-12-25 175139" src="https://github.com/user-attachments/assets/f00a33aa-e4a5-4d1f-8b0f-cf5a23bb37b4" />)
+![Orchestration Graph](System%20Design/Orchestration%20Graph.png)
 
 **Why this matters**
 - Demonstrates non-monolithic execution
@@ -87,7 +87,7 @@ Each node represents an agent or processing step, and edges represent data depen
 ### 3. End-to-End Flow Chart
 This flow chart explains the system behavior at a **conceptual level**, suitable for non-technical stakeholders.
 
-![Flow Chart](<img width="1206" height="157" alt="Screenshot 2025-12-25 174522" src="https://github.com/user-attachments/assets/0e6e83ef-43f4-4f30-bfe7-319ccc2e0694" />)
+![Flowchart](System%20Design/Flowchart.png)
 
 **Flow Summary**
 1. Product data is ingested
@@ -102,7 +102,7 @@ This flow chart explains the system behavior at a **conceptual level**, suitable
 ### 4. Sequence Diagram (Runtime Interaction)
 This sequence diagram illustrates runtime interactions between the orchestrator and agents.
 
-![Sequence Diagram](Screenshot%202025-12-25%20170225.png)
+![Sequence Diagram](System%20Design/Sequence%20Diagram.png)
 
 **What this demonstrates**
 - Orchestrator is the single controller
