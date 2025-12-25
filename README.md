@@ -181,17 +181,6 @@ These outputs are suitable for:
 
 ---
 
-## Why This Design Works
-
-- ✔ Demonstrates true **agentic architecture**
-- ✔ Avoids monolithic scripts
-- ✔ Clear orchestration and execution flow
-- ✔ Reusable logic and templates
-- ✔ Deterministic, auditable outputs
-- ✔ Easily extensible to new products or pages
-
----
-
 ## Conclusion
 
 This project demonstrates a **production-style agentic automation system** focused on **modularity, orchestration, and system design**, rather than content writing. It fully satisfies the assignment requirements and reflects real-world engineering practices for scalable AI systems.
