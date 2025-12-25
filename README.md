@@ -6,12 +6,12 @@ Modern content systems often rely on monolithic scripts or prompt-based pipeline
 
 ## Objective 
 The objective of this project is to Design and implement a modular agentic automation system that takes a small product dataset and automatically generates structured, machine-readable content pages.  
-● multi-agent workflows 
-● automation graphs 
-● reusable content logic 
-● template-based generation 
-● structured JSON output 
-● system abstraction & documentation 
+- multi-agent workflows
+- automation graphs
+- reusable content logic
+- template-based generation
+- structured JSON output
+- system abstraction & documentation 
 
 ---
 
