@@ -112,7 +112,7 @@ This sequence diagram illustrates runtime interactions between the orchestrator 
 
 ---
 
-## Agent Responsibilities (Conceptual View)
+## Agent Responsibilities
 
 | Agent | Responsibility |
 |------|---------------|
